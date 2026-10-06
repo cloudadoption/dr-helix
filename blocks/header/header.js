@@ -152,6 +152,14 @@ export default async function decorate(block) {
   // prevent mobile nav behavior on window resize
   toggleMenu(nav, navSections, isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
+  nav.addEventListener('click', (event) => {
+    const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+    if (!link || isDesktop.matches || nav.getAttribute('aria-expanded') !== 'true') return;
+    const url = new URL(link.href);
+    if (url.origin === window.location.origin && url.pathname === window.location.pathname) {
+      toggleMenu(nav, navSections, false);
+    }
+  });
 
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';

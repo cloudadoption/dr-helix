@@ -1,0 +1,279 @@
+body.drhelix {
+  --background-color: #101415;
+  --light-color: #181e20;
+  --dark-color: #b3c0be;
+  --text-color: #f0f4f3;
+  --link-color: #69e5c2;
+  --link-hover-color: #a3f5de;
+  --muted-color: #a4b2b0;
+  --border-color: #2a3334;
+  --body-font-family: -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --heading-font-family: var(--body-font-family);
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+  --nav-height: 80px;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.drhelix :focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 5px;
+}
+
+.drhelix h2 {
+  margin: 0;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+}
+
+.drhelix h3 {
+  font-weight: 550;
+  letter-spacing: -0.025em;
+}
+
+.drhelix h1,
+.drhelix h2,
+.drhelix h3 {
+  scroll-margin-top: 108px;
+}
+
+.drhelix main > .section {
+  margin: 0;
+  padding: 64px 0;
+}
+
+.drhelix main > .section:first-child {
+  padding: 0 0 68px;
+  background-image: radial-gradient(ellipse at 50% 20%, #69e5c20a, transparent 65%);
+}
+
+.drhelix main > .section > :where(div) {
+  max-width: 1120px;
+}
+
+.drhelix :where(.default-content-wrapper > p:first-child) {
+  margin: 0 0 18px;
+  color: var(--link-color);
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+}
+
+.drhelix main .download-section :where(p:has(strong)) + p {
+  max-width: 450px;
+  margin-block: 18px;
+  color: var(--muted-color);
+  font-size: 13px;
+}
+
+.drhelix main .default-content-wrapper > h2 + p {
+  max-width: 600px;
+  margin: 20px 0 36px;
+  color: var(--muted-color);
+  line-height: 1.75;
+}
+
+.drhelix a.button:any-link {
+  min-height: 46px;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.drhelix a.button.secondary {
+  border-color: var(--border-color);
+  background-color: var(--light-color);
+}
+
+.drhelix a.button.secondary:hover {
+  border-color: var(--muted-color);
+  color: var(--text-color);
+}
+
+.drhelix main .feature-section {
+  border-top: 1px solid var(--border-color);
+}
+
+.drhelix main .getting-started {
+  background: #14191a;
+  border-block: 1px solid var(--border-color);
+}
+
+.drhelix main .download-section {
+  margin: 24px;
+  padding: 56px 0;
+  border: 1px solid #69e5c23d;
+  border-radius: 16px;
+  background: radial-gradient(ellipse at top, #69e5c214, transparent 75%), #151f1d;
+  text-align: center;
+}
+
+.drhelix main .download-section :where(.default-content-wrapper > p) {
+  margin-inline: auto;
+}
+
+.drhelix main .download-section strong {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid #69e5c24d;
+  border-radius: 8px;
+  color: var(--link-color);
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.drhelix main .download-section :where(p:last-child) {
+  margin-top: 26px;
+  font-size: 14px;
+}
+
+.drhelix main .faq-section .default-content-wrapper {
+  max-width: 760px;
+}
+
+.drhelix main .faq-section h2 {
+  margin-bottom: 40px;
+}
+
+.drhelix main .faq-section h3 {
+  margin: 28px 0 12px;
+  padding-top: 26px;
+  border-top: 1px solid var(--border-color);
+  font-size: 18px;
+}
+
+.drhelix main .faq-section h3 + p {
+  color: var(--muted-color);
+  font-size: 15px;
+}
+
+.drhelix .header .nav-wrapper {
+  z-index: 10;
+  border-bottom: 1px solid var(--border-color);
+  background-color: #101415f5;
+}
+
+.drhelix .header nav {
+  max-width: 1184px;
+}
+
+.drhelix .header :where(.nav-brand a) {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+}
+
+.drhelix .footer .icon,
+.drhelix .header .nav-brand .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.drhelix .header .nav-brand .icon img {
+  width: 100%;
+}
+
+.drhelix .header :where(.nav-sections a) {
+  color: var(--muted-color);
+  font-size: 13px;
+}
+
+.drhelix .header :where(.nav-sections a:hover) {
+  color: var(--text-color);
+}
+
+.drhelix .header .nav-tools a.button {
+  min-height: 38px;
+  padding: 8px 14px;
+  font-size: 12px;
+}
+
+.drhelix .header .nav-tools a span {
+  margin-left: 8px;
+}
+
+.drhelix .footer {
+  border-top: 1px solid var(--border-color);
+  background: var(--background-color);
+  color: var(--muted-color);
+  font-size: 13px;
+}
+
+.drhelix .footer > div {
+  max-width: 1120px;
+  padding: 40px 24px;
+}
+
+.drhelix .footer :where(.default-content-wrapper > p:first-child) {
+  margin-bottom: 10px;
+  letter-spacing: normal;
+}
+
+.drhelix .footer :where(p:first-child) a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.drhelix .footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.drhelix .footer ul a {
+  color: var(--muted-color);
+}
+
+.drhelix .footer p:last-child {
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+  font-size: 11px;
+}
+
+@media (width < 600px) {
+  .drhelix .header nav {
+    gap: 0 14px;
+    padding-inline: 20px;
+  }
+
+  .drhelix .header .nav-tools a span {
+    display: none;
+  }
+}
+
+@media (width >= 900px) {
+  .drhelix main > .section {
+    padding-block: 96px;
+  }
+
+  .drhelix main .download-section {
+    max-width: 1120px;
+    margin: 64px auto 0;
+    padding-block: 72px;
+  }
+
+  .drhelix .header .nav-sections ul {
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .drhelix .footer > div {
+    padding-inline: 32px;
+  }
+}

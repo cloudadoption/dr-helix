@@ -25,3 +25,80 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.features > ul,
+.cards.steps > ul {
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.cards.features > ul > li,
+.cards.steps > ul > li {
+  border-color: var(--border-color, #dadada);
+  border-radius: 12px;
+  background-color: var(--light-color);
+}
+
+.cards.features .cards-card-body,
+.cards.steps .cards-card-body {
+  margin: 28px;
+}
+
+.cards.features .icon {
+  width: 28px;
+  height: 28px;
+}
+
+.cards.features h3,
+.cards.steps h3 {
+  margin: 22px 0 12px;
+  font-size: 20px;
+}
+
+.cards.features h3 + p,
+.cards.steps h3 + p {
+  color: var(--muted-color, var(--text-color));
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.cards.features .cards-card-body > h3 ~ p + p:last-child {
+  margin-top: 24px;
+  color: var(--muted-color, var(--text-color));
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.cards.steps > ul {
+  counter-reset: step;
+}
+
+.cards.steps > ul > li {
+  counter-increment: step;
+}
+
+.cards.steps .cards-card-body::before {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--border-color, #dadada);
+  border-radius: 8px;
+  color: var(--link-color);
+  font-size: 12px;
+  font-weight: 600;
+  content: counter(step, decimal-leading-zero);
+  place-items: center;
+}
+
+@media (width >= 600px) {
+  .cards.features > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .cards.features > ul,
+  .cards.steps > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

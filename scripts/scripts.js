@@ -162,6 +162,9 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  if (document.body.classList.contains('drhelix')) {
+    await loadCSS(`${window.hlx.codeBasePath}/styles/drhelix.css`);
+  }
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
