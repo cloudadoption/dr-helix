@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>DrHelix Test Updates</title>
+        <description>Temporary update feed for testing. No updates are published.</description>
+        <language>en</language>
+        <!-- Add a real, signed release with generate_appcast to test installation. -->
+    </channel>
+</rss>
