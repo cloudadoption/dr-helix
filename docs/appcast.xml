@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>DrHelix Test Updates</title>
-        <description>Temporary update feed for testing. No updates are published.</description>
-        <language>en</language>
-        <!-- Add a real, signed release with generate_appcast to test installation. -->
+        <title>DrHelix</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 07 Oct 2026 13:46:37 +0530</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0-build2/DrHelix-1.0-build2.zip" length="6040863" type="application/octet-stream" sparkle:edSignature="coh6p+RToIE5z924vSv4AvVnN2k00iMYwHdqHAhD0FDFJaRznR8Cg74LQ65R9oHxoj+JcdMb8Iug5ULO+GyiCQ=="/>
+        </item>
     </channel>
 </rss>
