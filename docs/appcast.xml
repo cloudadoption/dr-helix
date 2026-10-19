@@ -3,6 +3,22 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 19 Oct 2026 10:38:46 -0500</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.0
+
+- Direct-download installation with a drag-to-Applications DMG.
+- Automatic updates for direct-download installations through Sparkle.
+- Site access token listing, creation, copying, and confirmed deletion.
+
+This is an early-preview app. Test against non-production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.0-build3/DrHelix-1.0.0-build3.zip" length="6108437" type="application/octet-stream" sparkle:edSignature="Y8T4Kt2TokZ6XKghnL5tt22S3oR7Cp+1NLzTwLihIREeOq7oFojeo+aFNPg1yTNGn9bTLNIp20DWZPZi6taEDw=="/>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Wed, 07 Oct 2026 13:46:37 +0530</pubDate>
             <sparkle:version>2</sparkle:version>
