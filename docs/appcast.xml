@@ -3,6 +3,25 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Wed, 21 Oct 2026 10:52:26 -0500</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.1
+
+- Manage Folders now treats missing configuration as an empty state and lets you add the first folder mapping. Blank and duplicate folder paths are rejected, and load/save failures are shown without silently dropping new mappings.
+- Choose the Git ref used by Code Sync instead of always syncing `main`.
+- Added TelemetryDeck session and sidebar feature analytics. Analytics are enabled by default after preview agreement acceptance; turn off **Settings > Privacy > Share usage analytics** to stop new collection. Organization/site names, emails, credentials, token values, and request/response data are not sent.
+- Added a public app privacy policy linked from Settings: https://cloudadoption.github.io/dr-helix/privacy.html.
+
+Includes a signed/notarized drag-to-Applications DMG for installation and a signed ZIP for Sparkle updates. Requires macOS 26.5 or later.
+
+This is an early-preview app. Test against non-production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.1-build4/DrHelix-1.0.1-build4.zip" length="6401981" type="application/octet-stream" sparkle:edSignature="npmnTz8b1Dhb5jCG8UaMqrHzuRZzpPL/j/ANadLhpzxpgeEGUyE3yruk1ZdXEo/kFBNqRD7yUqCIQvxW+nvADQ=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Mon, 19 Oct 2026 10:38:46 -0500</pubDate>
             <sparkle:version>3</sparkle:version>
