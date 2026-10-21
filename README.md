@@ -66,6 +66,13 @@ separately from deploying code; a code merge alone does not replace the homepage
 - Preview: https://main--dr-helix--cloudadoption.aem.page/
 - Live: https://main--dr-helix--cloudadoption.aem.live/
 
+## App privacy policy
+
+The native DrHelix app's [privacy policy](https://cloudadoption.github.io/dr-helix/privacy.html)
+is published from `docs/privacy.html` through GitHub Pages, alongside the Sparkle
+appcast. This static policy does not depend on the separately authored AEM
+website content.
+
 ## Documentation
 
 Before using the aem-boilerplate, we recommand you to go through the documentation on https://www.aem.live/docs/ and more specifically:
