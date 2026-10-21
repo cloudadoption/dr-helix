@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy information for the DrHelix macOS app, including optional TelemetryDeck usage analytics.">
+    <title>DrHelix App Privacy Policy</title>
+  </head>
+  <body>
+    <main>
+      <h1>DrHelix App Privacy Policy</h1>
+      <p>Last updated: October 21, 2026</p>
+      <p>This notice describes the native DrHelix macOS app. It does not replace the privacy notices of Adobe, Microsoft, GitHub, Apple, or other services you choose to access through the app.</p>
+
+      <h2>Your organization and site data</h2>
+      <p>DrHelix is an administrative client for Adobe Experience Manager Edge Delivery Services and Adobe Commerce. It sends the requests you initiate, and requests needed to load the interface, to the relevant service using your account's permissions. The app does not send your administrative data to a separate DrHelix-operated backend.</p>
+      <p>Organization names, selected sites, interface preferences, and the analytics preference are stored locally in app preferences. Helix and Commerce authentication secrets are stored in the macOS Keychain. Newly created site access token values are shown for you to save; DrHelix does not save or log them. If you choose to copy information, it is placed on the system clipboard.</p>
+
+      <h2>Usage analytics</h2>
+      <p>Starting with version 1.0.1, DrHelix uses <a href="https://telemetrydeck.com/">TelemetryDeck</a> to understand app sessions and feature usage. Analytics are <strong>enabled by default</strong>, but do not start before you accept the preview agreement on launch.</p>
+      <p>You can stop new analytics collection at any time by turning off <strong>Settings &gt; Privacy &gt; Share usage analytics</strong>. Your choice is saved across launches. With analytics disabled at launch, the analytics SDK is not initialized.</p>
+      <p>When enabled, analytics signals include:</p>
+      <ul>
+        <li>A hashed, randomly generated installation identifier and a random session identifier. DrHelix does not use your login email, account name, or account ID as the analytics identifier.</li>
+        <li>Session/install events and session/retention statistics.</li>
+        <li>Fixed sidebar feature names, such as the selection of Manage Site, and a fixed distribution label identifying Direct or internal/TestFlight builds. These events describe navigation, not whether an API operation succeeded.</li>
+        <li>App and build versions, macOS version, device model and architecture, screen information, locale, time zone, language, and appearance/accessibility preferences supplied by the SDK.</li>
+      </ul>
+      <p>DrHelix does <strong>not</strong> supply organization or site names, email addresses, credentials, token IDs or values, request URLs, request or response contents, or status-log messages to TelemetryDeck. Analytics requests use a separate ephemeral network session without Helix or Commerce cookies or stored credentials.</p>
+      <p>Analytics are used to understand and improve DrHelix, not for advertising or cross-app tracking. TelemetryDeck processes the signals according to its <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">privacy information</a> and <a href="https://telemetrydeck.com/privacy/">privacy policy</a>. Network providers necessarily handle connection metadata when receiving requests.</p>
+      <p>Disabling analytics stops new signals and cancels pending analytics network requests. It cannot recall data already delivered. The SDK can retain previously collected signals locally for delivery; those signals may be sent if you enable analytics again. Uninstalling the app or disabling analytics should not be assumed to delete data already processed by a service provider.</p>
+
+      <h2>Updates and other network services</h2>
+      <p>Direct-download builds use Sparkle to check an update feed hosted on GitHub Pages and download signed app updates from GitHub. Internal builds receive updates through TestFlight instead. These providers receive normal request/connection metadata under their own privacy policies.</p>
+      <p>Signing in and using administrative features communicates with the authentication and API services involved. The general-purpose request tool communicates with the URLs you enter. Review the destination and do not send credentials or confidential information to untrusted services.</p>
+
+      <h2>Questions and changes</h2>
+      <p>For privacy questions, use the contact routes on the <a href="https://github.com/cloudadoption/dr-helix">DrHelix project</a>. Do not post credentials, personal information, or private administrative data in public issues. This notice may be updated as the app changes; the date above identifies the current revision.</p>
+    </main>
+  </body>
+</html>
