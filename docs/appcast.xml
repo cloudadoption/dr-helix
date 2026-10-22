@@ -3,6 +3,25 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Thu, 22 Oct 2026 13:53:13 -0500</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.2 - Build 5
+
+- New HTTP console: choose View > Console or press Command+Shift+Y to show a resizable console beneath the right-hand workspace.
+- Inspect API request methods, URLs, response statuses, timing, and clickable request and response payloads.
+- Keep the latest 500 requests in memory, even while the console is hidden. Authentication payloads are omitted and known credentials are redacted; each body is limited to 1 MiB.
+- Includes the branded drag-to-install DMG and automatic updates through Sparkle.
+
+Requires macOS 26.5 or later on an Apple Silicon or 64-bit Intel Mac.
+
+DrHelix remains an early-preview app. Test against non-production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.2-build5/DrHelix-1.0.2-build5.zip" length="6479794" type="application/octet-stream" sparkle:edSignature="1msy6WapmN69hzjn3R/vYzXFYmqMKtYAhjtcHNCJKW7W7+LnUPA0sxduP7gXifXjEkrRHI4qbsQo3DmFAOtyDA=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Wed, 21 Oct 2026 10:52:26 -0500</pubDate>
             <sparkle:version>4</sparkle:version>
