@@ -4,6 +4,30 @@
         <title>DrHelix</title>
         <item>
             <title>1.0.2</title>
+            <pubDate>Thu, 22 Oct 2026 20:50:03 -0500</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.2 - Build 6
+
+- Open site configuration from webpages using `drhelix://site/{org}/{site}/{screen}` links.
+- Incoming links reuse the main workspace and select the requested organization, site, and configuration screen.
+- Known org/site pairs open without a save prompt. New pairs can be saved to local configuration or opened transiently without changing saved organizations, sites, or the last-used selection.
+- The preview agreement remains required once per app session. Links do not repeat an already-accepted agreement.
+- Restored the compact, centered agreement window and independent workspace size and position persistence.
+
+Supported link screens: `config`, `headers`, `folders`, `users`, `access-tokens`, `robots`, `sidekick`, `indexes`, `sitemaps`, and `status`.
+
+Links navigate only; they never automatically save, create, or delete server data.
+
+Requires macOS 26.5 or later on an Apple Silicon or 64-bit Intel Mac.
+
+DrHelix remains an early-preview app. Test against non-production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.2-build6/DrHelix-1.0.2-build6.zip" length="6556126" type="application/octet-stream" sparkle:edSignature="bhzvxGJ2VUd7tHN1/cJn/u4SwrAlXLLtHTuORkQQNTN+jIwiFSmA0h3LG1XpD+A+uGNC2O4e5C1kJcUIf+qbAg=="/>
+        </item>
+        <item>
+            <title>1.0.2</title>
             <pubDate>Thu, 22 Oct 2026 13:53:13 -0500</pubDate>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
