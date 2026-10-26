@@ -4,6 +4,32 @@
         <title>DrHelix</title>
         <item>
             <title>1.0.2</title>
+            <pubDate>Mon, 26 Oct 2026 10:10:26 -0500</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.2 (build 7)
+
+## What's new
+
+- Manage Access brings Admin, Site, Preview, and Live access configuration into one screen, replacing Enable Site Auth.
+- Admin authentication supports Auto, Required, and Not required, with editable roles and confirmed configuration deletion.
+- Site, Preview, and Live each have independent allow-pattern and secret-ID controls, Save, and confirmed Delete actions.
+- Pick existing site secrets or create a new secret, copy its one-time value somewhere safe, and add its ID to the selected section before explicitly saving access changes.
+- Read Site now offers an Aggregated checkbox and a native JSON viewer with collapsible objects and arrays, colored values, and a Tree/Raw switch. Raw is the default.
+- Share supported configuration views by copying their org/site deep link from the toolbar.
+- Manage Site supports the sourcebus content source type, validates its URL, and restores the previous URL when switching away.
+
+## Requirements
+
+macOS 26.5 or later. Universal app for Apple Silicon and Intel Macs.
+
+This remains an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.2-build7/DrHelix-1.0.2-build7.zip" length="6680639" type="application/octet-stream" sparkle:edSignature="13eJFIwKGorqnf8OWDVYUgW8TSNXUgPjNFeDoVyLhTzJhaTYARkok6fdez45LeVjwiQ3GdmSop4jvAbMh7EoAw=="/>
+        </item>
+        <item>
+            <title>1.0.2</title>
             <pubDate>Thu, 22 Oct 2026 20:50:03 -0500</pubDate>
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
