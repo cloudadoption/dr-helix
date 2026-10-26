@@ -3,6 +3,24 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Mon, 26 Oct 2026 15:27:25 -0500</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.4 (9)
+
+- Manage snapshots: create, inspect manifests, publish, and delete snapshots.
+- Manage snapshot schedules with local publish times, snapshot verification warnings, and confirmed schedule deletion.
+- Enable Scheduler with registration, validation, and publish-role Admin API key creation.
+- Manage Admin API keys with creation, role selection, local creation/expiration dates, and confirmed revocation.
+- Standardize text-entry fields and show a friendly message when robots.txt is not configured.
+
+This is an early-preview app. Review changes carefully before publishing snapshots or deleting keys and schedules.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.4-build9/DrHelix-1.0.4-build9.zip" length="6974659" type="application/octet-stream" sparkle:edSignature="z1Tz1ybkLt1+C8ShesYA64xSyQY1/rFxcl+0Eud40Gw9wP9CRK9ynk8zXV89jVTR/Pq5lzYsg/6Q+3njLfGVBg=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Mon, 26 Oct 2026 10:22:33 -0500</pubDate>
             <sparkle:version>8</sparkle:version>
