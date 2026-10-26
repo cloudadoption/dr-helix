@@ -3,6 +3,31 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Mon, 26 Oct 2026 10:22:33 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.3 (build 8)
+
+## What's new
+
+- Direct-download builds now start Sparkle after accepting the preview agreement on each launch.
+- Automatic update checking is enabled by default. Checks run when due, normally once per day while DrHelix is running, and respect existing user preferences.
+- Automatic installation is not enabled by this change. Check For Updates remains available for an immediate manual check.
+- Automatic updater startup failures are reported in the status bar without interrupting the workspace; a manual check can retry startup.
+
+Internal TestFlight builds remain separate and continue receiving updates through TestFlight.
+
+## Requirements
+
+macOS 26.5 or later. Universal app for Apple Silicon and Intel Macs.
+
+This remains an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.3-build8/DrHelix-1.0.3-build8.zip" length="6681593" type="application/octet-stream" sparkle:edSignature="bj8q9dtBn9KtpSGOBrzSY4n1YjFt50xQu+2RGVs6vzbwa60w5Tcskh+e6d5EFpnZy9GZXca9kcYg4+4B8xqICA=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Mon, 26 Oct 2026 10:10:26 -0500</pubDate>
             <sparkle:version>7</sparkle:version>
