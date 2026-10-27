@@ -3,6 +3,24 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Tue, 27 Oct 2026 15:13:00 -0500</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.5 (build 10)
+
+- Browse Source Bus files and version history, and open documents in their default macOS application or a chosen editor.
+- Enable the file browser for markup sites backed by the site's Source Bus URL.
+- Simplify content-source settings and warn before changing source types without migrating content.
+- Add site metadata management and improve snapshot error handling.
+- Update the About window acknowledgments.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.5-build10/DrHelix-1.0.5-build10.zip" length="7209957" type="application/octet-stream" sparkle:edSignature="SALXglTVk3TrSVPYXn5pJx+CcIESCP3sqwu0FixyRikzBU0ZjPTWoLtQHDiUhH7Pe15MmUNKHHqDwq34k+g2Cw=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Mon, 26 Oct 2026 15:27:25 -0500</pubDate>
             <sparkle:version>9</sparkle:version>
