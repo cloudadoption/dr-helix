@@ -4,6 +4,21 @@
         <title>DrHelix</title>
         <item>
             <title>1.0.5</title>
+            <pubDate>Tue, 27 Oct 2026 15:36:50 -0500</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.5 (build 11)
+
+- Check for updates immediately after accepting the preview agreement, rather than waiting for the next scheduled check.
+- Keep scheduled update checks and the manual Check For Updates action, and respect disabled automatic checks.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.5-build11/DrHelix-1.0.5-build11.zip" length="7209944" type="application/octet-stream" sparkle:edSignature="l08w9EmfF9sa9nCYoT4YPmEmt2p+i4CIG/1LZpCsGvyzEHitLAjn+d9gNrFzrUeUuSLUGst5nxY/Fz2JrsIxCQ=="/>
+        </item>
+        <item>
+            <title>1.0.5</title>
             <pubDate>Tue, 27 Oct 2026 15:13:00 -0500</pubDate>
             <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
