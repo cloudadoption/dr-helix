@@ -4,6 +4,23 @@
         <title>DrHelix</title>
         <item>
             <title>1.0.6</title>
+            <pubDate>Wed, 28 Oct 2026 13:52:12 -0500</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.6 (build 13)
+
+- Replace the Sidekick API Upgrade checkbox with an Additional Properties key/value section.
+- Add, edit, or remove top-level JSON settings such as apiUpgrade, preserving existing property values and types.
+- Support booleans, numbers, quoted strings, null, arrays, and objects without adding apiUpgrade automatically.
+- Validate property names and JSON values before saving, preventing duplicate keys and conflicts with dedicated controls.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.6-build13/DrHelix-1.0.6-build13.zip" length="7352053" type="application/octet-stream" sparkle:edSignature="xyAtDWM226IXZ+cHNw61ABb7Bzp1/fzfxleMDtLYHKmofnKrHEsE6Z9aZDhapgz4tYiXj0CCOFYMjv0PFqjSAQ=="/>
+        </item>
+        <item>
+            <title>1.0.6</title>
             <pubDate>Wed, 28 Oct 2026 11:25:47 -0500</pubDate>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
