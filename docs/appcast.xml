@@ -3,6 +3,26 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.7</title>
+            <pubDate>Thu, 29 Oct 2026 12:56:57 -0500</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.7 (build 14)
+
+- Preserve existing public configuration when enabling Commerce routing.
+- Fix Source Bus site configuration saves, published-status checks, and unpreview actions.
+- Exclude access tokens and API keys from cloned sites.
+- Correct Admin API key deletion, requireAuth values, site-version restores, whole-branch code sync, and reindex job URLs.
+- Fix authentication for additional Commerce product pages and update available service-token permissions.
+
+This is the macOS direct-download release. The new iPhone and iPad target is distributed separately through TestFlight.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.7-build14/DrHelix-1.0.7-build14.zip" length="7358134" type="application/octet-stream" sparkle:edSignature="5Rx7TfF4TeiMHYlIPVA0QvrC6FbDqFpJwrdsVhuYRCNrUK7drcTiCMk2w/X/pjhhMKmAmbr8JZEF2TlV7QoNBA=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Wed, 28 Oct 2026 13:52:12 -0500</pubDate>
             <sparkle:version>13</sparkle:version>
