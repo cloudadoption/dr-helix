@@ -3,6 +3,25 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Thu, 29 Oct 2026 20:21:47 -0500</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.8 (build 15)
+
+- Show server-provided x-error details for failed HTTP requests in the HTTP console, with sensitive values redacted.
+- Update developer credits.
+
+This release also adds Ops Mode site-limit management with guided defaults, informational help, and add/edit/delete controls, and removes overlapping settings from Manage Features.
+
+This is the macOS direct-download release. iPhone and iPad distribution remains separate through TestFlight.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.8-build15/DrHelix-1.0.8-build15.zip" length="7453092" type="application/octet-stream" sparkle:edSignature="G6WWJnfcPYXcgpO0qXojOaGEDKYKvmt6BBbZ3Ue5K5fvQmZDQur0mwdbkyfCzhgucHTA5CeveiGNpZt0u++pDA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Thu, 29 Oct 2026 12:56:57 -0500</pubDate>
             <sparkle:version>14</sparkle:version>
