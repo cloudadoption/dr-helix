@@ -13,8 +13,6 @@
 - Show server-provided x-error details for failed HTTP requests in the HTTP console, with sensitive values redacted.
 - Update developer credits.
 
-This release also adds Ops Mode site-limit management with guided defaults, informational help, and add/edit/delete controls, and removes overlapping settings from Manage Features.
-
 This is the macOS direct-download release. iPhone and iPad distribution remains separate through TestFlight.
 
 This is an early-preview app. Use care with production systems.
