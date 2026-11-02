@@ -3,6 +3,25 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.9</title>
+            <pubDate>Mon, 02 Nov 2026 10:50:57 -0600</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.9 (build 17)
+
+- Add Safe Mode on Mac, with a toolbar toggle and confirmation before sending changes. Bulk operations ask once per run.
+- Mark controls that send changes with a purple lock while Safe Mode is enabled, and report cancelled requests without sending them.
+- Move Mac and Mobile sign-in and profile requests to the AEM API, with automatic migration of stored login tokens.
+- Fix index configuration saves to preserve supported property shapes, multi-value expressions, faceted settings, and other existing index keys. Invalid configurations are caught before saving, and server errors show their details.
+
+This is the macOS direct-download release. iPhone and iPad distribution remains separate through TestFlight.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.9-build17/DrHelix-1.0.9-build17.zip" length="7543851" type="application/octet-stream" sparkle:edSignature="wXa4tpOUscj5MY+gonN6NUn3PhI4Eb7nDnLWWVEP6h8zSiOB4RS8H9g91aYtvWZ5E7zRb/R/EUXzy456Qj7YBg=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <pubDate>Thu, 29 Oct 2026 20:40:07 -0500</pubDate>
             <sparkle:version>16</sparkle:version>
