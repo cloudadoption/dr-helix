@@ -3,6 +3,23 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.10</title>
+            <pubDate>Wed, 04 Nov 2026 15:16:10 -0600</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.10 (build 18)
+
+- Add Adobe ID sign-in: hold Option in the login menu to choose Adobe ID Log In. Microsoft remains the default.
+- Sort organization and site selectors naturally for easier navigation.
+- Keep authenticated requests from forwarding credentials to redirect destinations, and hide site secrets in the HTTP console.
+- Tighten Safe Mode so confirmed changes do not follow redirects and batch approvals end when the operation finishes.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.10-build18/DrHelix-1.0.10-build18.zip" length="7554032" type="application/octet-stream" sparkle:edSignature="mbZQ3MybdREcAMHTktYC6d0aTsiWoR1Z0av7EdoqN3yryV/bQxpR4cIKZbQiA+Z8MLHFb63QuF32+lJkPvNpBQ=="/>
+        </item>
+        <item>
             <title>1.0.9</title>
             <pubDate>Mon, 02 Nov 2026 10:50:57 -0600</pubDate>
             <sparkle:version>17</sparkle:version>
