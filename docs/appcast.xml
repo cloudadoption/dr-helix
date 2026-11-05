@@ -3,6 +3,25 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.11</title>
+            <pubDate>Thu, 05 Nov 2026 10:17:28 -0600</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.11 (build 19)
+
+- Move index and sitemap management, Bulk Operations, Get Logs, and List Jobs to the AEM API.
+- Duplicate index configurations, publish index output, and follow asynchronous reindexing with clearer progress and error feedback.
+- Improve bulk publishing with background job monitoring, retry handling, and clearer per-path results.
+- Load more log entries and view authenticated job reports directly in the app.
+- Simplify sitemap navigation, preserve language settings, and improve generation feedback and Safe Mode confirmations.
+- Disable Writing Tools in administrative editors to keep configuration text unchanged.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.11-build19/DrHelix-1.0.11-build19.zip" length="7680541" type="application/octet-stream" sparkle:edSignature="FagvOqpHVvXb0NHAhPWr1teNonM/HrfXHYDAGQKxEGsm7AkauCB4/vaSxodFIGPAxKJZSaun4wzEZjTq6aVEDQ=="/>
+        </item>
+        <item>
             <title>1.0.10</title>
             <pubDate>Wed, 04 Nov 2026 15:16:10 -0600</pubDate>
             <sparkle:version>18</sparkle:version>
