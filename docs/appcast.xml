@@ -3,6 +3,26 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.12</title>
+            <pubDate>Mon, 09 Nov 2026 15:15:09 -0600</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.12 (build 20)
+
+- Move site listing, site configuration, configuration history, Code Sync, and robots.txt management to the AEM API.
+- Switch List Sites between a familiar list and responsive cards without paths; your view preference is remembered.
+- Open Manage Site on launch when an organization and site are already selected, while preserving incoming links to other screens.
+- Preserve additional site settings when saving, improve API error feedback, and prevent changes after unsuccessful configuration loads.
+- Sync the saved code source with clearer accepted and queued status messages.
+- Save or discard metadata source ordering explicitly, and simplify the stored/preview sitemap YAML viewer.
+- Refresh Site action styling and expand the user help.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.12-build20/DrHelix-1.0.12-build20.zip" length="7758053" type="application/octet-stream" sparkle:edSignature="XlgbgQvVllJYSMeJ0uciP4inqT2HXhy9dcjSTZc6MrU53v29GGK7ihAyXfGrUsvfqNfuxuA8D0XFpQH4+QaKBA=="/>
+        </item>
+        <item>
             <title>1.0.11</title>
             <pubDate>Thu, 05 Nov 2026 10:17:28 -0600</pubDate>
             <sparkle:version>19</sparkle:version>
