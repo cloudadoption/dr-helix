@@ -3,6 +3,25 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.13</title>
+            <pubDate>Fri, 13 Nov 2026 20:31:03 -0600</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.13 (build 21)
+
+- Move organization profiles, organization users, and public site configuration to the AEM API.
+- Edit Commerce routing directly: manage multiple backends and URL patterns with validation, and keep other settings when saving.
+- Edit organization names inline in Settings; organizations are listed alphabetically, and open editors reset safely when the selected organization is renamed.
+- Show a response's error details from the HTTP Console's status code, with credentials redacted.
+- Show clearer error details when site configuration fails to load or save.
+- Update the user help.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.13-build21/DrHelix-1.0.13-build21.zip" length="7853763" type="application/octet-stream" sparkle:edSignature="hpG9AhGZtPjSTW+/D53snEVVm/grzWC+HPoCqO5KFLV+tv1D+HW9379PmAhX1FfQe2TejSeTlmwT41V6czSKDg=="/>
+        </item>
+        <item>
             <title>1.0.12</title>
             <pubDate>Mon, 09 Nov 2026 15:15:09 -0600</pubDate>
             <sparkle:version>20</sparkle:version>
