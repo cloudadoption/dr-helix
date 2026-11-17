@@ -3,6 +3,27 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.14</title>
+            <pubDate>Tue, 17 Nov 2026 14:19:18 -0600</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.14 (build 22)
+
+- Add the Sourcebus Migrator (early release): copy a DA site's documents, sheets, and media into a site's Source Bus after reviewing a dry-run scan. Turn on **Show Sourcebus Migrator** in Settings to use it.
+- Move site configuration reads to the AEM API.
+- Fix saving robots.txt.
+- Show every field of a Get Logs entry in a details sheet.
+- Show only a job's per-path results in Per-Path Details.
+- Reset the open screen when switching sites or Commerce environments, so no values carry over from the previous selection.
+- Keep the HTTP Console full size when no action is selected.
+- Update the user help.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.14-build22/DrHelix-1.0.14-build22.zip" length="8072171" type="application/octet-stream" sparkle:edSignature="LQGZf16SnxNf8ViieqGvtt2OQV4UKv2/soX1+3UY3oidWWhUPAiSDiCCWSPj0NVy1UP+wu7A4ZOmIVQhw7HEBg=="/>
+        </item>
+        <item>
             <title>1.0.13</title>
             <pubDate>Fri, 13 Nov 2026 20:31:03 -0600</pubDate>
             <sparkle:version>21</sparkle:version>
