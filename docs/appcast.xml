@@ -3,6 +3,27 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Fri, 20 Nov 2026 13:48:48 -0600</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.15 (build 23)
+
+- Open to a new welcome screen. Click it to open Manage Site for the selected site, or choose one of your three most recently used sites.
+- Sourcebus Migrator: add a required analysis step that checks DA access, each site's content source, and existing Sourcebus files before scanning.
+- Sourcebus Migrator: show dry-run results graphically by file kind and folder.
+- Sourcebus Migrator: copy the DA site configuration during migration.
+- Sourcebus Migrator: DA sign-in opens Adobe's sign-in page directly.
+- Get Logs: label indexer and other non-request entries with their source and their first error or changes.
+- Get Logs: filter loaded entries by route.
+- Update the user help.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.15-build23/DrHelix-1.0.15-build23.zip" length="8305280" type="application/octet-stream" sparkle:edSignature="/yUysN8WiXejfOTGlv43Fys35F6cqDG+jAPJz2tB18ezv2dRSZvJ+AywtxBm5Hj8DAKIqOH1x/njdX7Fk++3Dg=="/>
+        </item>
+        <item>
             <title>1.0.14</title>
             <pubDate>Tue, 17 Nov 2026 14:19:18 -0600</pubDate>
             <sparkle:version>22</sparkle:version>
