@@ -3,6 +3,24 @@
     <channel>
         <title>DrHelix</title>
         <item>
+            <title>1.0.16</title>
+            <pubDate>Mon, 23 Nov 2026 15:45:05 -0600</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DrHelix 1.0.16 (build 24)
+
+- Status: check preview or live status with the new AEM API. Folder paths ending in `/*` list every page in the folder.
+- Status: sort the results by any column, see who last modified each page, and copy the URLs of just the rows you select.
+- Bulk Operations: preview many paths at once, including everything under a folder ending in `/*`.
+- Source Bus File Browser: upload files from your Mac into the current folder. Files over about 4.4 MB are too large to upload.
+- Update the user help.
+
+This is an early-preview app. Use care with production systems.
+]]></description>
+            <enclosure url="https://github.com/cloudadoption/dr-helix/releases/download/v1.0.16-build24/DrHelix-1.0.16-build24.zip" length="8446943" type="application/octet-stream" sparkle:edSignature="y5HhOzdV+S0sn4GxWh/AGJWNFCK6FI5QlyazTxtBWGubXHxVq78M0YFAVdSBhEw7Poi6fHPfQYHb+IsUgxscAw=="/>
+        </item>
+        <item>
             <title>1.0.15</title>
             <pubDate>Fri, 20 Nov 2026 13:48:48 -0600</pubDate>
             <sparkle:version>23</sparkle:version>
